@@ -1,4 +1,4 @@
-type Blog = {
+export interface Blog  {
   Title: string;
   Paragraph: string;
   image: string | File;
